@@ -4,5 +4,5 @@ hello:
     ARG EARTHLY_TARGET_PROJECT
     ARG EARTHLY_GIT_PROJECT_NAME
     RUN env
-    RUN "------------------"
+    RUN echo "------------------"
     RUN env | grep testearth1
